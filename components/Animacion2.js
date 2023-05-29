@@ -15,7 +15,7 @@ const Animacion2 = () => {
   return (
     <Animated.View
       style={
-        ([styles.caja], {width: animacion, height: animacion})
+        ([styles.caja], {scaleX: animacion, scaleY: animacion})
       }></Animated.View>
   );
 };
