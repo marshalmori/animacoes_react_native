@@ -1,5 +1,5 @@
 import React from 'react';
-import Animacion4 from './components/Animacion4';
+import Animacion5 from './components/Animacion5';
 
 import {
   SafeAreaView,
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <View style={styles.contenido}>
-        <Animacion4 />
+        <Animacion5 />
       </View>
     </>
   );
@@ -23,7 +23,7 @@ const App = () => {
 
 const styles = StyleSheet.create({
   contenido: {
-    marginTop: 100,
+    marginTop: 50,
   },
 });
 
