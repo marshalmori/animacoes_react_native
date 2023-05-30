@@ -1,5 +1,5 @@
 import React from 'react';
-import Animacion6 from './components/Animacion6';
+import Animacion7 from './components/Animacion7';
 
 import {
   SafeAreaView,
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <View style={styles.contenido}>
-        <Animacion6 />
+        <Animacion7 />
       </View>
     </>
   );
